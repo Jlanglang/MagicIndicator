@@ -35,4 +35,5 @@ public class ColorTransitionPagerTitleView extends SimplePagerTitleView {
     @Override
     public void onDeselected(int index, int totalCount) {
     }
+
 }

@@ -188,4 +188,8 @@ public class ClipPagerTitleView extends View implements IMeasurablePagerTitleVie
         float contentHeight = metrics.bottom - metrics.top;
         return (int) (getHeight() / 2 + contentHeight / 2);
     }
+
+    public Paint getPaint() {
+        return mPaint;
+    }
 }

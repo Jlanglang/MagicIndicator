@@ -130,6 +130,10 @@ public class LinePagerIndicator extends View implements IPagerIndicator {
         mYOffset = yOffset;
     }
 
+    public Paint getPaint() {
+        return mPaint;
+    }
+
     public float getXOffset() {
         return mXOffset;
     }
@@ -174,9 +178,6 @@ public class LinePagerIndicator extends View implements IPagerIndicator {
         }
     }
 
-    public Paint getPaint() {
-        return mPaint;
-    }
 
     public List<Integer> getColors() {
         return mColors;

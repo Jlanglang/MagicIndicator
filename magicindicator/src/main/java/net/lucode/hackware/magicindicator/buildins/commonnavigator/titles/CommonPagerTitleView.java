@@ -1,6 +1,7 @@
 package net.lucode.hackware.magicindicator.buildins.commonnavigator.titles;
 
 import android.content.Context;
+import android.graphics.Paint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -120,7 +121,6 @@ public class CommonPagerTitleView extends FrameLayout implements IMeasurablePage
     public void setContentPositionDataProvider(ContentPositionDataProvider contentPositionDataProvider) {
         mContentPositionDataProvider = contentPositionDataProvider;
     }
-
     public interface OnPagerTitleChangeListener {
         void onSelected(int index, int totalCount);
 

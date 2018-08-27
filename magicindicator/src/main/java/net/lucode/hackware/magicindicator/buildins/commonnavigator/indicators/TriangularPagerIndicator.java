@@ -158,4 +158,8 @@ public class TriangularPagerIndicator extends View implements IPagerIndicator {
     public void setYOffset(float yOffset) {
         mYOffset = yOffset;
     }
+
+    public Paint getPaint() {
+        return mPaint;
+    }
 }

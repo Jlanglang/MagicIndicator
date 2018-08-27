@@ -146,4 +146,5 @@ public class WrapPagerIndicator extends View implements IPagerIndicator {
             mEndInterpolator = new LinearInterpolator();
         }
     }
+
 }

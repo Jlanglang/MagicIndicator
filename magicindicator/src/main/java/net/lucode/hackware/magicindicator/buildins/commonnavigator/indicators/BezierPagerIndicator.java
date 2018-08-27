@@ -35,6 +35,7 @@ public class BezierPagerIndicator extends View implements IPagerIndicator {
     private float mMaxCircleRadius;
     private float mMinCircleRadius;
 
+
     private Paint mPaint;
     private Path mPath = new Path();
 
@@ -135,6 +136,10 @@ public class BezierPagerIndicator extends View implements IPagerIndicator {
 
     public void setMinCircleRadius(float minCircleRadius) {
         mMinCircleRadius = minCircleRadius;
+    }
+
+    public Paint getPaint() {
+        return mPaint;
     }
 
     public float getYOffset() {

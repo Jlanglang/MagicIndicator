@@ -99,4 +99,8 @@ public class TestPagerIndicator extends View implements IPagerIndicator {
     public void setInnerRectColor(int innerRectColor) {
         mInnerRectColor = innerRectColor;
     }
+
+    public Paint getPaint() {
+        return mPaint;
+    }
 }

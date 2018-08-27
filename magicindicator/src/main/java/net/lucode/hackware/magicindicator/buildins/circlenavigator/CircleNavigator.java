@@ -276,6 +276,10 @@ public class CircleNavigator extends View implements IPagerNavigator {
         mTotalCount = count;  // 此处不调用invalidate，让外部调用notifyDataSetChanged
     }
 
+    public Paint getPaint() {
+        return mPaint;
+    }
+
     public boolean isTouchable() {
         return mTouchable;
     }
